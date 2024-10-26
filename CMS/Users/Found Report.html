@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Found Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../Assets/style.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="nav-logo border">
+            <div class="logo">
+            </div>
+        </div>
+
+        <div class="menu">
+            <ul class="home">
+                <li>
+                    <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                    <a href="#">Home</a>
+                </li>
+            </ul>
+            <ul class="report">
+                <li>
+                    <i class="fa-solid fa-clipboard" style="color: #ffffff;"></i>
+                    <a href="#">Report</a>
+                        <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i>
+                </li>
+            </ul>
+            <ul class="myReport">
+                <li>
+                    <i class="fa-solid fa-clipboard" style="color: #ffffff;"></i>
+                    <a href="#">My Report</a>
+                </li>
+            </ul>
+            <ul class="Profile">
+                <li>
+                    <i class="fa-solid fa-user" style="color: #ffffff;"></i>
+                    <a href="#">Profile</a>
+                </li>
+                </ul>
+
+                <div class="nav-search">
+                    <i class="fa-solid fa-magnifying-glass" style="color: #626262;"></i>
+                        <input placeholder="Search Items" class="search">
+        </div>
+        </div>
+    </div>
+    <div class="Report-form">
+        <div id="form-content">
+            <form action="#">
+                <h1>Found Report</h1>
+                <label for="itemName">Item Name</label>
+                <input type="text" id="itemName" placeholder="Item Name">
+    
+                <label for="foundLocation">Found Location</label>
+                <input type="text" id="foundLocation" placeholder="Found Location">
+    
+                <label for="foundDate">Found Date</label>
+                <input type="date" id="foundDate" placeholder="Found Date">
+    
+                <label for="itemCategory">Item Category</label>
+                <input type="text" id="itemCategory" placeholder="Item Category">
+    
+                <label for="description">Description</label>
+                <input type="text" id="description" placeholder="Description">
+    
+                <label for="imageUpload">Insert Image</label>
+                <input type="file" id="imageUpload">
+    
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
